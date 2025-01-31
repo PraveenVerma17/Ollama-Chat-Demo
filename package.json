@@ -1,0 +1,37 @@
+{
+  "name": "react-chat-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "format": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "ollama": "^0.5.12",
+    "prismjs": "^1.29.0",
+    "react": "^19.0.0-alpha-9c7897b90-20240503",
+    "react-dom": "^19.0.0-alpha-9c7897b90-20240503",
+    "react-markdown": "^9.0.3",
+    "rehype-raw": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/prismjs": "^1.26.5",
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
+    "@typescript-eslint/eslint-plugin": "^7.0.1",
+    "@typescript-eslint/parser": "^7.0.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4"
+  }
+}
